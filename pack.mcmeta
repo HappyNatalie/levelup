@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": {
+            "text": "Example Tome Extension",
+            "color": "red"
+        },
+    "min_format": 101,
+      "max_format": 101
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Example Skill Tome",
+                "minecraft:item_model": "minecraft:written_book",
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "hn_itemid": "hn_levelpath:skill_tome",
+                  "hn_tome_data": {
+                    "cost": 5,
+                    "menu_display_name": "Example Skill Tome",
+                    "menu_description": "+2 Max Health\nMakes particles above your head.",
+                    "remove_function": "example_tome_pack:example_skill_tome/remove",
+                    "apply_function": "example_tome_pack:example_skill_tome/apply",
+                    "respawn_function": "example_tome_pack:example_skill_tome/respawn",
+                    "take_damage_function": "example_tome_pack:example_skill_tome/took_damage",
+                    "deal_damage_function": "example_tome_pack:example_skill_tome/dealt_damage",
+                    "kill_enemy_function": "example_tome_pack:example_skill_tome/kill",
+                    "tick_function": "example_tome_pack:example_skill_tome/tick",
+                    "die_function": "example_tome_pack:example_skill_tome/die",
+                    "tome_loot_table": "example_tome_pack:example_skill_tome",
+                    "id": -248242111
+                  }
+                },
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [
+                  {
+                    "text": "Example Skill : ",
+                    "color": "gray",
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "+2 Max HP",
+                    "color": "dark_green",
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "Makes particles above your head.",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "Cost : 5",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 0,
+      "entries": []
+    }
+  ]
+}
