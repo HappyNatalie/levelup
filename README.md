@@ -18,7 +18,7 @@ For more a better description of what I mean look at the lore structure of the e
 ---
 
 ## Function Tags
-**DO NOT USE TAGS LIKE `#minecraft:tick` or `#minecraft:load`.** Use the following instead. This will prevent the pack from messing up the main pack.
+**DO NOT USE TAGS LIKE `#minecraft:tick` or `#minecraft:load`.** Use the following instead. This will prevent your extension from messing up the main pack.
 
 I strongly recommend using the pack's dependency [score-fixer](https://modrinth.com/datapack/score-fixer) for any scores that are important to keep around, especially long term. Don't worry about lantern load or any problems as long as you use the function tags and triggers from the base datapack, it will work.
 
@@ -61,6 +61,7 @@ The following is the data structure and what you need to put in the custom data 
     * `die_function` - N/A.
     * `tome_loot_table` - This loot table is given to the player on tome removal via the crucible to return tomes to them.
     * `id` - This number decides skill tome compatibility. Do not ever set this to 0. Takes any valid value for a scoreboard.
+  
 ## Future Planned Features
 - updating equipped tomes automatically when player relogs based on tome loot table
 - subtitle override/custom subtitle support (as it is right now you cannot use the actionbar to show UI elements of a tome because of the default overlay)
@@ -71,3 +72,4 @@ The following is the data structure and what you need to put in the custom data 
 - add 'command_pripority' field to allow people to give certain tomes priority over others as it currently functions based on the slot the tome is in
 - add 'upgrade_of' field to allow people to have certian skills directly override others (new skill would replace old one and keep tome to use as a drop when done
 - add suppport for negative skill tome costs (mainly to support skill tomes that debuff but give more knowlege points in return
+- Anything you ask for! (if im smart enough to code it) Reach out to @happynatalie on discord if you have a good idea for a planned feature
