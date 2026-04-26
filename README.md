@@ -4,7 +4,7 @@ Check out the modrinth page for more info https://modrinth.com/datapack/levelup!
 
 ## Documentation for custom skill tomes!
 
-Skill tomes are primarily based on item data. Before I say the data I would like to note a few conventions I would like to keep for any custom skill tomes. Your obviously not required to do this but it will make different tome packs look more clean when used together.
+Skill tomes are primarily based on item data. Before I show the data structure I would like to note a few conventions I would like to keep for any custom skill tomes. Your obviously not required to do this but it will make different tome packs look more clean when used together.
 
 ## Lore Structure
 * SKILLNAME : (make this gray)
