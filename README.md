@@ -58,7 +58,7 @@ The following is the data structure and what you need to put in the custom data 
     * `deal_damage_function` - Runs when the player deals damage.
     * `kill_enemy_function` - Runs when the player kills something.
     * `tick_function` - Runs every tick.
-    * `die_function` - N/A.
+    * `die_function` - Runs when the player dies.
     * `tome_loot_table` - This loot table is given to the player on tome removal via the crucible to return tomes to them.
     * `id` - This number decides skill tome compatibility. Do not ever set this to 0. Takes any valid value for a scoreboard.
   
