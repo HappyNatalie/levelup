@@ -18,7 +18,7 @@ For more a better description of what I mean look at the lore structure of the e
 ---
 
 ## Function Tags
-**DO NOT USE TAGS LIKE `#minecraft:tick` or `#minecraft:load`.** Use the following instead. This will prevent your extension from messing up the main pack.
+**DO NOT USE TAGS LIKE `#minecraft:tick` or `#minecraft:load`.** Use the following instead. This will prevent your extension from messing up the main pack or scorefixer.
 
 I strongly recommend using the pack's dependency [score-fixer](https://modrinth.com/datapack/score-fixer) for any scores that are important to keep around, especially long term. Don't worry about lantern load or any problems as long as you use the function tags and triggers from the base datapack, it will work.
 
