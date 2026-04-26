@@ -61,6 +61,11 @@ The following is the data structure and what you need to put in the custom data 
     * `die_function` - Runs when the player dies.
     * `tome_loot_table` - This loot table is given to the player on tome removal via the crucible to return tomes to them.
     * `id` - This number decides skill tome compatibility. Do not ever set this to 0. Takes any valid value for a scoreboard.
+ 
+# Taken ID Ranges
+This is just a list of known ranges of IDs that mods have already used please feel free to dm me to add something on here.
+ - 1 - 100
+ - 101 - 200
   
 ## Future Planned Features
 - updating equipped tomes automatically when player relogs based on tome loot table
