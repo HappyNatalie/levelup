@@ -70,11 +70,11 @@ This is just a list of known ranges of IDs that mods have already used please fe
 ## Future Planned Features
 - updating equipped tomes automatically when player relogs based on tome loot table
 - subtitle override/custom subtitle support (as it is right now you cannot use the actionbar to show UI elements of a tome because of the default overlay)
-- add 'ignore_refund' field to tomes to allow people to make the tome not be given back when uneqipped (Will update drop tomes on death to support)
-- add 'incompatible_id' field to tomes to support tomes with different IDs being incompatible with each other
-- add 'required_ids' field to allow people to only have certain tomes equipped if the other tome is equipped already 
-- add 'force_required_ids' field to allow people to make it so if the prerequisite tome is unequipped the tome that requires it is as well
-- add 'command_pripority' field to allow people to give certain tomes priority over others as it currently functions based on the slot the tome is in
-- add 'upgrade_of' field to allow people to have certian skills directly override others (new skill would replace old one and keep tome to use as a drop when done
+- add `ignore_refund` field to tomes to allow people to make the tome not be given back when uneqipped (Will update drop tomes on death to support)
+- add `incompatible_ids` field to tomes to support tomes with different IDs being incompatible with each other
+- add `required_ids` field to allow people to only have certain tomes equipped if the other tome is equipped already 
+- add `force_required_ids` field to allow people to make it so if the prerequisite tome is unequipped the tome that requires it is as well
+- add `command_pripority` field to allow people to give certain tomes priority over others as it currently functions based on the slot the tome is in
+- add `upgrade_of` field to allow people to have certian skills directly override others (new skill would replace old one and keep tome to use as a drop when done
 - add suppport for negative skill tome costs (mainly to support skill tomes that debuff but give more knowlege points in return
 - Anything you ask for! (if im smart enough to code it) Reach out to @happynatalie on discord if you have a good idea for a planned feature
