@@ -1,4 +1,4 @@
-# LevelUP! Tome expansion guide. (LevelUP! v1.4)
+# LevelUP! Tome expansion guide. (LevelUP! v1.4+)
 LevelUP! by HappyNatalie is a datapack I made that I was sure to make very easy to make extensions for! Check out the modrinth page to give it a try.
 Check out the modrinth page for more info https://modrinth.com/datapack/levelup!/
 
