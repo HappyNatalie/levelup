@@ -138,15 +138,16 @@ function hn_levelpath_dev:loot_drop {tome_loot_table:"my_extension:tome_loot_tab
 ### Valid Rarities
 The following are all of the valid rarities that a tome can have and what their drop message looks like. This is for use with the `hn_levelpath_dev:loot_drop` command and is not related to the rarity component. Your defined rarity goes in the `tome_loot_display_rarity` element as specified earlier. There aren't any notes on the `common`, `uncommon`, `rare`, `legendary`, and `mythical` rarities because they are kind of just the boilerplate rarities most games use. But generally just put it higher up the more rare it is to get.
 
- * `common`
- * `uncommon`
- * `rare`
- * `legendary`
- * `mythical`
- * `tome_drop` Just a generic message that could be used for any tome really.
- * `achivement` Meant to be used for one time rewards that the player can get by doing achivements or completing collections.
- * `special` Meant to be used for items that are gotten by doing spesific things for instance killing a drowned with a trident.
- * `custom` For displaying any drop message that is not on this list. Uses the json element from `tome_loot_display_custom_drop_message` as the starting part of the drop message. Below is an example with `"[{\"text\":\"Custom Drop >\"}]"`.
+ * `common`<img width="520" height="30" alt="COMMON" src="https://github.com/user-attachments/assets/a72dfdc2-9bca-498c-b9f7-7ab6c430a5ac" />
+ * `uncommon`<img width="560" height="30" alt="UNCOMMON" src="https://github.com/user-attachments/assets/493477d5-410f-4d76-a1ef-4be759cffd87" />
+ * `rare`<img width="478" height="33" alt="RARE" src="https://github.com/user-attachments/assets/d644cb02-6950-4a33-8d21-ea4c5761bc9f" />
+ * `legendary`<img width="578" height="30" alt="LEGENDARY" src="https://github.com/user-attachments/assets/2d3f4188-510f-404d-905d-8dbba2f00236" />
+ * `mythical`<img width="525" height="35" alt="MYTHIC" src="https://github.com/user-attachments/assets/56d59db2-b214-41e1-844d-f1c8d1c1ad72" />
+ * `tome_drop` Just a generic message that could be used for any tome really.<img width="474" height="27" alt="TOMEDROP" src="https://github.com/user-attachments/assets/3526877d-e991-4b52-b48f-21df6eace77a" />
+ * `achivement` Meant to be used for one time rewards that the player can get by doing achivements or completing collections.<img width="580" height="28" alt="ADVANCEMENT" src="https://github.com/user-attachments/assets/5991f1ad-5427-46c5-b82c-7a1d4809734f" />
+ * `special` Meant to be used for items that are gotten by doing spesific things for instance killing a drowned with a trident.<img width="520" height="29" alt="SPECIAL" src="https://github.com/user-attachments/assets/176a32b7-1069-4801-8881-d1b81850be79" />
+ * `custom` For displaying any drop message that is not on this list. Uses the json element from `tome_loot_display_custom_drop_message` as the starting part of the drop message. Below is an example with `"[{\"text\":\"Custom Drop >\"}]"`.<img width="465" height="29" alt="CUSTOM" src="https://github.com/user-attachments/assets/34d46879-351f-4abe-9568-ef24190b7fe2" />
+
 
 ---
 
