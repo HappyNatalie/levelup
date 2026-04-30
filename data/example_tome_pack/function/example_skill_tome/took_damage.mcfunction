@@ -1,2 +1,1 @@
-#take_damage_function
-say Ouch! I took damage.
+say debug : take_damage_function

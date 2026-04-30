@@ -1,2 +1,1 @@
-#deal_damage_function
-say Wow I dealt damage!
+say debug : die_function  1

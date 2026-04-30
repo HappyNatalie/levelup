@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "killed_zombie_chance": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow"
+            }
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_zombie_chance"
+    ]
+  ],
+  "rewards": {
+    "function": "example_tome_pack:example_skill_tome/loot"
+  }
+}

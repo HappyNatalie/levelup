@@ -1,2 +1,1 @@
-#tick_function
-say A tick happened!
+particle happy_villager ~ ~3 ~

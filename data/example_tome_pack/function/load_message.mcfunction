@@ -1,1 +1,3 @@
-tellraw @a "> Example Extension" 
+#adding a give_all_tomes function and a link to it in the relaod message is a good way to give creative players who are not familiar how to drop themselves loot tables access to all the packs stuff
+#only put a load message here
+tellraw @a ["> Example Extension ",{"click_event":{"action":"suggest_command","command":"/function example_tome_pack:give_all_tomes"},"color":"gold","text":"[Give Tomes]","underlined":true}]

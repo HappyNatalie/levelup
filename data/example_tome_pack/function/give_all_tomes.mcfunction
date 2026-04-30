@@ -1,0 +1,2 @@
+#adding a give_all_tomes function and a link to it in the relaod message is a good way to give creative players who are not familiar how to drop themselves loot tables access to all the packs stuff
+loot give @s loot example_tome_pack:example_skill_tome

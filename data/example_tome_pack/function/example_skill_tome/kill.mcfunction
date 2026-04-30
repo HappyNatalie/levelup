@@ -1,2 +1,1 @@
-#kill_enemy_function
-say I killed something!
+say debug : kill_enemy_function 1

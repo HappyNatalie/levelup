@@ -1,2 +1,1 @@
-#remove_function
-say Skill tome removed!
+say debug : respawn_function

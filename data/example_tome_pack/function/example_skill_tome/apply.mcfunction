@@ -1,2 +1,1 @@
-#apply_function
-say Skill tome applied!
+say debug : apply_function  1

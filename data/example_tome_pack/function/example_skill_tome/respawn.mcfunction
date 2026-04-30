@@ -1,2 +1,1 @@
-#respawn_function
-say I respawned!
+say debug : respawn_function

@@ -1,2 +1,1 @@
-#die_function
-say Ouch I died!
+say debug : respawn_function 1
